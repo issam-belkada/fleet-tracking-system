@@ -5,12 +5,12 @@
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## 📌 Présentation du Projet
+## Présentation du Projet
 Développé dans le cadre d'un stage au sein du **CETIC (Groupe DIVINDUS)**, ce système de gestion de flotte est une solution complète de suivi en temps réel et de surveillance intelligente des véhicules. 
 
 Le projet ne se contente pas d'afficher des positions GPS ; il intègre un moteur d'analyse comportementale capable de détecter des anomalies de trajet et des sorties de zones autorisées (Geofencing).
 
-## 🚀 Fonctionnalités Clés
+## Fonctionnalités Clés
 - **Suivi Temps Réel** : Visualisation en direct des véhicules sur une carte interactive via WebSockets (Laravel Reverb).
 - **Moteur d'Alertes Intelligent** :
     - Détection d'excès de vitesse (>120 km/h).
@@ -22,14 +22,14 @@ Le projet ne se contente pas d'afficher des positions GPS ; il intègre un moteu
 - **Simulation de Trajet Haute Résolution** : Commandes Artisan permettant de simuler des trajets réels (Alger-Chlef, Alger-Médéa) via l'API OSRM avec interpolation de points pour une fluidité maximale.
 - **Administration** : Gestion des chauffeurs, des véhicules et des affectations.
 
-## 🛠 Stack Technique
+## Stack Technique
 - **Backend** : Laravel 13 , PHP 8.2+
 - **Frontend** : React 18, Vite, Tailwind CSS, Lucide React
 - **Base de données** : PostgreSQL (avec support JSON pour les zones géographiques)
 - **Real-time** : Laravel Reverb (WebSockets)
 - **Cartographie** : Leaflet.js / OpenStreetMap & OSRM API
 
-## ⚙️ Installation
+## Installation
 
 1. **Cloner le projet** :
    ```bash
